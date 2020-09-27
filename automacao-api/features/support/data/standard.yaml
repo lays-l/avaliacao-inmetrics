@@ -1,0 +1,19 @@
+http_status_code:
+  ok: 200
+  accepted: 202
+  bad_request: 400
+
+dados_invalidos:
+  nome: 'Sra. Ana'
+  sexo: 'u'
+  contratacao: 'na'
+
+response_messages:
+  empregado_nao_cadastrado: Empregado não cadastrado
+  nome_invalido: 'nome: não utilizar números ou caracteres especiais'
+  cpf_padrao_invalido: 'cpf: deve estar no padrão 111.222.333-00'
+  sexo_invalido: 'sexo: m, f ou i'
+  admissao_padrao_invalido: 'admissao: deve estar no padrão 31/12/2020'
+  valor_invalido: 'deve estar no padrão 1.000,00'
+  departamento_id_nulo: 'departamentoId: must not be null'
+  tipo_contratacao_invalido: 'tipoContratacao: pj ou clt'
