@@ -12,12 +12,12 @@ Funcionalidade: Funcionario - Validar cadastro de funcionário na página de fun
     * preencher os dados de usuário no cenário 'positivo'
     * validar que o usuário está logado na página de funcionários
 
-@cadastro_funcionario
-Esquema do Cenário: Cenario: Validar cadastro de novo funcionario no site de teste
-  Dado navegar para a página de '<pagina>'
-  Quando preencher as informações para cadastro de funcionário
-  Então validar que o funcionário foi cadastrado com sucesso
+  @cadastro_funcionario
+  Esquema do Cenário: Cenario: Validar cadastro de novo funcionario no site de teste
+    Dado navegar para a página de '<pagina>'
+    Quando preencher as informações para cadastro de funcionário
+    Então validar que o funcionário foi cadastrado com sucesso
 
     Exemplos:
-    | pagina   |
-    | cadastro |
+      | pagina   |
+      | cadastro |
