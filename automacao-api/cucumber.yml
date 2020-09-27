@@ -1,0 +1,13 @@
+# Plataform
+default: -p html_report -p tst --publish-quiet
+api_log: -p http_log -p api
+
+# Reports
+html_report: --format pretty --format html --out=reports/features_report.html
+
+# Logs
+http_log: HTTP_LOG=true
+
+# Environment
+prd: AMBIENTE=prd
+tst: AMBIENTE=tst

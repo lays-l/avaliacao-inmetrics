@@ -1,0 +1,28 @@
+login:
+  usuario: 'Lays Lima'
+  senha: '91122311'
+  senha_invalida: '12345'
+
+cadastro_usuario:
+  senha: '0343820'
+
+funcionario:
+  busca:
+    nome: Lays Lima
+    cpf: '145.148.728-22'
+    cargo: 'QA'
+  contrato:
+    - 'clt'
+    - 'pj'
+  cargo:
+    - 'QA'
+    - 'DEV'
+    - 'Teste'
+
+mensagens:
+  sucesso:
+    usuario_cadastrado: 'SUCESSO! Usuário cadastrado com sucesso'
+    funcionario_excluido: 'SUCESSO! Funcionário removido com sucesso'
+    funcionario_editado: 'SUCESSO! Informações atualizadas com sucesso'
+  erro:
+    login: 'ERRO! Usuário ou Senha inválidos'
