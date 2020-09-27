@@ -1,9 +1,0 @@
-source 'http://rubygems.org'
-
-gem 'cucumber'
-gem 'rspec'
-gem 'selenium-webdriver'
-gem 'capybara'
-gem 'faker'
-gem 'cpf_faker'
-gem 'cpf_utils'
