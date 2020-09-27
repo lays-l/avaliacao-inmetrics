@@ -1,16 +1,13 @@
 # Plataform
 default: -p chrome -p html_report -p json_report --publish-quiet
-api_log: -p http_log -p api
+jk: -p headless -p json_report
 
 # Reports
 json_report: --format pretty --format json --out=report/rubocop.html.json
 html_report: --format pretty --format html --out=report/features_report.html
 
-# Logs
-http_log: HTTP_LOG=true
-
 # Browsers
 firefox: BROWSER=firefox
 chrome: BROWSER=chrome
 internet_explorer: BROWSER=internet_explorer
-desktop: -p chrome
+headless: BROWSER=headless
